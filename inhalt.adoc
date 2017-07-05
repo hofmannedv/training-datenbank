@@ -258,17 +258,14 @@ Ziel: wie spreche ich ein DBMS an
 
 == Anwendung im Kurs ==
 
-* Adressbuch
-  Nutzer-ID, Name, Straße, Ort, PLZ, Telefonnummer
+Adressbuch:: Nutzer-ID, Name, Straße, Ort, PLZ, Telefonnummer
 
-* Inventardatenbank/-verzeichnis
-  Inventarnummer, Verwaltungsbereich, Beschreibung, Kaufpreis, Kaufdatum
+Inventardatenbank/-verzeichnis:: Inventarnummer, Verwaltungsbereich, Beschreibung, Kaufpreis, Kaufdatum
 
-* Verwaltung
-  Nutzer-ID, Verwaltungsbereich
+Verwaltung:: Nutzer-ID, Verwaltungsbereich
 
 ----
-Ziel: Datenstruktur verstehen
+Ziel: Datenstruktur zusammenstellen, verstehen und verbinden
 ----
 
 == Werkzeuge im Projekt ==
@@ -284,57 +281,82 @@ Ziel: was brauchen wir dafür
 
 == Ablauf ==
 
-1 Mit der Datenbank vertraut werden
-  - Kommandozeile/Terminal-Interface
-  - Tabelle anlegen und löschen
-  - Tabelle auflisten
-  - Daten einfügen
-  - Daten auswählen
-  - Daten löschen
-  - Daten ändern
+=== Mit der Datenbank vertraut werden ===
 
-  Ziel: Datenbank mit leerer Tabelle und fertiger Struktur
+* Kommandozeile/Terminal-Interface
+* Tabelle anlegen und löschen
+* Tabelle auflisten
+* Daten einfügen
+* Daten auswählen
+* Daten löschen
+* Daten ändern
 
-2 Webserver einrichten und testen
-  - Installation Apache Webserver
-  - Test auf Erreichbarkeit des Webservers
+----
+Ziel: Datenbank mit leerer Tabelle und fertiger Struktur
+----
 
-  Ziel: Einrichtung und Prüfung eines Webservers verstehen
+=== Webserver einrichten und testen ===
 
-3 PHP einrichten und damit vertraut werden
-  - PHP ergänzen (mod_php installieren)
-  - PHP vs HTML
-    
-    Ziel: erste kleine Anwendung schreiben: php_info()
+* Installation Apache Webserver
+* Test auf Erreichbarkeit des Webservers
 
-4 HTML
-  - Links und Verweise
-  - Varianten und der Umgang mit Eingabefeldern
-  - Parameter übergeben zwischen Skripts
-  - Validierung der Parameter
+----
+Ziel: Einrichtung und Prüfung eines Webservers verstehen
+----
 
-  Ziel: Menüauswahl realisieren
+=== PHP einrichten und damit vertraut werden ===
 
-5 PHP
-  - externe Dateien einbeziehen
-  - HTML-Modul
-  - Datenbank-Modul
+* PHP ergänzen ('mod_php' installieren)
+* PHP vs HTML
 
-  Ziel: Modularisierung des Projekts/der Anwendung
-  (Nutzen fertiger Module)
+----
+Ziel: erste kleine Anwendung schreiben: `php_info()`
+----
 
-  - Anwendungskonzept umsetzen
-    * Tabelleninhalt anzeigen und verstehen
-    * Eintrag ergänzen, ändern, löschen
-    * Eintrag suchen (filtern)
+=== HTML ===
 
-6 Richtig suchen und filtern
-  - Suche mit Textvergleichen
-  - Reguläre Ausdrücke nutzen
+* Links und Verweise
+* Varianten und der Umgang mit Eingabefeldern
+* Parameter übergeben zwischen Skripts
+* Validierung der Parameter
 
-7 Sortieren nach Tabellenspalte
-  - ORDER BY
+----
+Ziel: Menüauswahl realisieren
+----
 
-8 Schick machen mit CSS
+=== PHP ===
 
+* externe Dateien einbeziehen
+* HTML-Modul
+* Datenbank-Modul
+
+----
+Ziel: Modularisierung des Projekts/der Anwendung (Nutzen fertiger Module)
+----
+
+* Anwendungskonzept umsetzen
+** Tabelleninhalt anzeigen und verstehen
+** Eintrag ergänzen, ändern, löschen
+** Eintrag suchen (filtern)
+
+=== Richtig suchen und filtern ===
+
+* Suche mit Textvergleichen
+* Reguläre Ausdrücke nutzen
+
+=== Sortieren nach Tabellenspalte ===
+
+* `ORDER BY`
+
+=== Schick machen mit CSS ===
+
+* Einstieg in CSS
+
+== Links ==
+
+Link
+
+== Danksagung =
+
+Danke an:
 
