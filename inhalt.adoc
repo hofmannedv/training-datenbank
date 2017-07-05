@@ -26,19 +26,30 @@ Datenbanken und Anwendungen (3 Tage)
 
 == Einführung ==
 
-* was ist eine Datenbank
-** Behälter zur Speicherung von Daten
-** Behälter wird abgebildet als 
-*** gesamter Inhalt eines Speichermediums (Oracle DB)
-*** Datei im Dateisystem: `/var/lib/postgresql/version/main` (PostgreSQL)
+=== Was ist eine Datenbank ===
+
+* Behälter zur Speicherung von Daten
+* Behälter wird abgebildet als 
+** gesamter Inhalt eines Speichermediums (Oracle DB)
+** Datei im Dateisystem: `/var/lib/postgresql/version/main` (PostgreSQL)
 
 image::postgresql-pfad.png[id="fig.postgresql-pfad", width="30%"]
 
-* DB vs DBMS
-** DB: Abkürzung für Datenbank ('database')
-** DMBS: Abkürzung für Datenbank-Management-System ('database management system')
+=== DB vs DBS vs DBMS ===
 
-* DBMS-Formen (lokal, verteilt)
+DB:: Abkürzung für Datenbank ('database')
+
+DBS:: Abkürzung für Datenbanksystem ('database system')
+
+DMBS:: Abkürzung für Datenbank-Management-System ('database management system')
+
+image::db-vs-dbms.png[id="fig.db-vs-sbms", width="30%"]
+
+=== DBS-Formen ===
+
+lokal:: alles auf einem einzigen Computer bzw. Speichermedium
+
+verteilt ('distributed'):: über mehrere Computer und Speichermedien verteilt
 
 == Formate und Varianten ==
 
