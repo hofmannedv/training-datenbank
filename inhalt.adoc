@@ -136,26 +136,27 @@ Holger Glück;Am Nordtor 5;Nauen;14641;
 
 == Speicherformen ==
 
-nach außen:
-* raw-Data auf Speichermedium (Oracle DB)
-* Datei
+* nach außen
+** raw-Daten auf Speichermedium (bspw. Oracle DB)
+** Datei (bspw. MySQL)
 
-nach innen:
-* zeilenbasiert (CSV)
-* Tabellen 
-* Graph
+* nach innen
+** zeilenbasiert (CSV)
+** Tabellen  (bspw. MySQL, PostgreSQL)
+** Graph (bspw. neo4j
+** als Objekt (bspw. DB40, Zope Object Database)
 
-Unterschiede:
-* Zeile: Name;Straße;Ort;PLZ
-* XML: <name></name> ... <plz></plz>
-* Graph: [ID][Inhalt][*->][*->]
+* Unterschiede
+** ein Datensatz pro Zeile: `Name;Straße;Ort;PLZ`
+** ein Datensatz aus mehreren Entitäten (XML): `<name></name> ... <plz></plz>`
+** ein Datensatz aus mindestens einem Knoten (Graph): `[ID][Inhalt][*->][*->]`
 
-Kriterien:
-* feste vs. variable Spalten
-* feste vs. variable Größe pro Datensatz
+* Kriterien
+** feste vs. variable Spalten
+** feste vs. variable Größe pro Datensatz
 
 Ziel 1: wie speichert und verwaltet ein DBMS seine Inhalte
-Zeil 2: Vor- und Nachteile verschiedener Formate
+Ziel 2: Vor- und Nachteile verschiedener Formate
 
 == DBMS (Auswahl) ==
 
