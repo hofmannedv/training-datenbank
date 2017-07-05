@@ -74,6 +74,15 @@ Holger Glück;Am Nordtor 5;Nauen;14641;
 * speichert das DBMS
 * Format legt das DBMS fest
 
+----
+==================================================================
+|Name         |Strasse        |Ort    |Postleitzahl|Telefon      |
+==================================================================
+|Rainer Zufall|Rathausplatz 15|Potsdam|14467       |(0331) 123456|
+|Holger Glück |Am Nordtor 5   |Nauen  |14641       |             |
+==================================================================
+----
+
 === Extended Markup Language (XML) ===
 
 * Speicherung als Knoten und Knoteninhalte
@@ -119,8 +128,6 @@ Holger Glück;Am Nordtor 5;Nauen;14641;
 	"telefon": "(0331) 123456"
 }
 ----
-
-=== Dateien ===
 
 == Zugangswege ==
 
