@@ -81,25 +81,44 @@ Holger Glück;Am Nordtor 5;Nauen;14641;
 
 .adressen.xml
 ----
-<adresse>
-	<name>Rainer Zufall></name>
-	<strasse>Rathausplatz 15</strasse>
-	<ort>Potsdam</ort>
-	<postleitzahl>14467</postleitzahl>
-	<telefon>(0331) 123456</telefon>
-</adresse>
-<adresse>
-	<name>Holger Glück</name>
-	<strasse>Am Nordtor 5</strasse>
-	<ort>Nauen</ort>
-	<postleitzahl>14641</postleitzahl>
-	<telefon></telefon>
-</adresse>
+<adressliste>
+	<adresse>
+		<name>Rainer Zufall></name>
+		<strasse>Rathausplatz 15</strasse>
+		<ort>Potsdam</ort>
+		<postleitzahl>14467</postleitzahl>
+		<telefon>(0331) 123456</telefon>
+	</adresse>
+	<adresse>
+		<name>Holger Glück</name>
+		<strasse>Am Nordtor 5</strasse>
+		<ort>Nauen</ort>
+		<postleitzahl>14641</postleitzahl>
+		<telefon></telefon>
+	</adresse>
+</adressliste>
 ----
 
 === BLOB ===
 
+* Abkürzung für 'binary large objects'
+* Speicherung als Binärinhalt
+
 === JSON ===
+
+* Abkürzung für 'JavaScript Object Notation'
+* serialisierte Datenmenge
+
+.adressen.json
+----
+{
+	"name": "Rainer Zufall",
+	"strasse": "Rathausplatz 15",
+	"ort": "Potsdam",
+	"postleitzahl": "14467",
+	"telefon": "(0331) 123456"
+}
+----
 
 === Dateien ===
 
