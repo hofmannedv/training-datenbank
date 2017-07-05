@@ -178,10 +178,35 @@ Ziel: Namen und Typen von DBMS zuordnen
 
 == Zugriff ==
 
-* Anfragesprache (SQL,XSLT)
-* Tools auf der Kommandozeile
+=== Anfragesprache === 
 
+SQL:: Structured Query Language
+
+----
+SELECT Name,Telefonnummer FROM Adressen;
+----
+
+XSLT:: eXtensible Stylesheet Language
+
+Beispiel: https://www.w3schools.com/xml/tryxslt.asp?xmlfile=cdcatalog&xsltfile=cdcatalog_ex3
+
+=== Tools auf der Kommandozeile (Auswahl) ===
+
+* CSV: Standard-UNIX-Tools, bspw. `cut`, `tr`, `awk`
+
+.Erste und vierte Spalte ausgeben
+----
+$ echo "Holger Glück;Am Nordtor 5;Nauen;14641;" | awk -F ";" '{ print $1, $4 }'
+Holger Glück 14641
+$
+----
+
+* XML: `xsltproc`, `xmlstarlet`
+* JSON: `jq`
+
+----
 Ziel: wie greife ich auf Inhalte einer DB zu
+----
 
 == Ziel einer Datenbank ==
 
@@ -189,9 +214,11 @@ Ziel: wie greife ich auf Inhalte einer DB zu
 * Informationen erhalten
 * Daten auswerten (in begrenztem Maße)
 
+----
 Ziel: Aufgaben eines DBMS
+----
 
-== Auswahl einer Datenbank (Kriterien)==
+== Auswahl einer Datenbank (Kriterien) ==
 
 * Datenmenge
 * Variabilität, Veränderlichkeit
@@ -199,7 +226,9 @@ Ziel: Aufgaben eines DBMS
 * Zugriffsform/-häufigkeit
 * IT-Struktur rundherum
 
+----
 Ziel: Kriterien zur Auswahl eines geeigneten DBMS und seiner Struktur
+----
 
 == Ablauf eines Zugriffs auf eine Datenbank ==
 
@@ -211,7 +240,9 @@ Ziel: Kriterien zur Auswahl eines geeigneten DBMS und seiner Struktur
 * Ergebnis darstellen
 * Drumherum: Anwendungslogik
 
+----
 Ziel: wie funktioniert ein DBMS
+----
 
 == Datenbankaufträge ==
 
@@ -221,7 +252,9 @@ Ziel: wie funktioniert ein DBMS
 * Daten löschen (DELETE)
 * Daten auswählen (SELECT)
 
+----
 Ziel: wie spreche ich ein DBMS an
+----
 
 == Anwendung im Kurs ==
 
@@ -234,7 +267,9 @@ Ziel: wie spreche ich ein DBMS an
 * Verwaltung
   Nutzer-ID, Verwaltungsbereich
 
+----
 Ziel: Datenstruktur verstehen
+----
 
 == Werkzeuge im Projekt ==
 
@@ -243,7 +278,9 @@ Ziel: Datenstruktur verstehen
 * Webbasierter Zugriff mit PHPMyAdmin
 * Implementierung in einer Programmiersprache (PHP, Python)
 
+----
 Ziel: was brauchen wir dafür
+----
 
 == Ablauf ==
 
