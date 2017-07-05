@@ -53,12 +53,55 @@ verteilt ('distributed'):: über mehrere Computer und Speichermedien verteilt
 
 == Formate und Varianten ==
 
-* CSV
-* Text und Tabellen (ASCII oder Binär)
-* XML
-* BLOB
-* JSON
-* Dateien
+=== Komma-separierte Werte (CSV) ===
+
+* Speicherung als Tabelle mit einzelnen Spalten
+* Trennzeichen als Spaltentrenner
+** Leerzeichen
+** Tabulator
+** Komma
+** Semikolon
+
+.adressen.txt
+----
+Name;Strasse;Ort;Postleitzahl;Telefon
+Rainer Zufall;Rathausplatz 15;Potsdam;14467;(0331) 123456
+Holger Glück;Am Nordtor 5;Nauen;14641;
+----
+
+=== Text und Tabellen (ASCII oder Binär) ===
+
+* speichert das DBMS
+* Format legt das DBMS fest
+
+=== Extended Markup Language (XML) ===
+
+* Speicherung als Knoten und Knoteninhalte
+* Knoten via `<knotenname>Inhalt</knotenname>`
+
+.adressen.xml
+----
+<adresse>
+	<name>Rainer Zufall></name>
+	<strasse>Rathausplatz 15</strasse>
+	<ort>Potsdam</ort>
+	<postleitzahl>14467</postleitzahl>
+	<telefon>(0331) 123456</telefon>
+</adresse>
+<adresse>
+	<name>Holger Glück</name>
+	<strasse>Am Nordtor 5</strasse>
+	<ort>Nauen</ort>
+	<postleitzahl>14641</postleitzahl>
+	<telefon></telefon>
+</adresse>
+----
+
+=== BLOB ===
+
+=== JSON ===
+
+=== Dateien ===
 
 == Zugangswege ==
 
