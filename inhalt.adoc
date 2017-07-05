@@ -143,7 +143,7 @@ Holger Glück;Am Nordtor 5;Nauen;14641;
 * nach innen
 ** zeilenbasiert (CSV)
 ** Tabellen  (bspw. MySQL, PostgreSQL)
-** Graph (bspw. neo4j
+** Graph (bspw. neo4j)
 ** als Objekt (bspw. DB40, Zope Object Database)
 
 * Unterschiede
@@ -155,22 +155,26 @@ Holger Glück;Am Nordtor 5;Nauen;14641;
 ** feste vs. variable Spalten
 ** feste vs. variable Größe pro Datensatz
 
+----
 Ziel 1: wie speichert und verwaltet ein DBMS seine Inhalte
 Ziel 2: Vor- und Nachteile verschiedener Formate
+----
 
 == DBMS (Auswahl) ==
 
-* MS SQL Server
-* Oracle MySQL
-* PostgreSQL
-* MariaDB
-* Firebird
-* neo4j
-* NoSQL
-* SQLite
-* rSQL
+* MS SQL Server (https://www.microsoft.com/de-de/sql-server/sql-server-2017)
+* Oracle MySQL (https://www.mysql.com/)
+* PostgreSQL (https://www.postgresql.org/)
+* MariaDB (https://mariadb.org/)
+* Firebird (https://www.firebirdsql.org/)
+* neo4j (http://neo4j.com/)
+* MongoDB (https://www.mongodb.com/de)
+* SQLite (https://www.sqlite.org/)
+* rSQL (http://www.rsql.ch/)
 
+----
 Ziel: Namen und Typen von DBMS zuordnen
+----
 
 == Zugriff ==
 
