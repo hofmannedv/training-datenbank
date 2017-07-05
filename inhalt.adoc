@@ -1,0 +1,213 @@
+Datenbanken und Anwendungen (3 Tage)
+====================================
+:author:    Frank Hofmann <frank.hofmann@efho.de>
+:backend:   slidy
+:data-uri:  http://www.efho.de/
+:max-width: 94%
+:icons:
+
+== Inhalt ==
+
+* Ablauf
+* Einführung
+** Was ist eine Datenbank
+** Formate und Varianten
+** Zugangswege
+** Speicherformen
+* DBMS (Auswahl)
+* Zugriff
+* Ziel einer Datenbank
+* Auswahlkriterien eines DBMS
+* Ablauf eines Zugriffs auf eine Datenbank
+* Datenbankaufträge
+* Anwendung im Kurs
+* Werkzeuge im Projekt 
+* Ablauf -- Schritte 1 bis 8
+
+== Einführung ==
+
+* was ist eine Datenbank
+** Ort zur Speicherung von Daten
+** Ort wird abgebildet als 
+*** Datei
+*** Inhalt eines Speichermediums
+
+* DB vs DBMS
+* DBMS-Formen (lokal, verteilt)
+
+== Formate und Varianten ==
+
+* CSV
+* Text und Tabellen (ASCII oder Binär)
+* XML
+* BLOB
+* JSON
+* Dateien
+
+== Zugangswege ==
+
+* Programm <-> DBMS <-> DB*
+* Library via ODBC/DBI-Treiber <-> DBMS <-> DB
+
+== Speicherformen ==
+
+nach außen:
+* raw-Data auf Speichermedium (Oracle DB)
+* Datei
+
+nach innen:
+* zeilenbasiert (CSV)
+* Tabellen 
+* Graph
+
+Unterschiede:
+* Zeile: Name;Straße;Ort;PLZ
+* XML: <name></name> ... <plz></plz>
+* Graph: [ID][Inhalt][*->][*->]
+
+Kriterien:
+* feste vs. variable Spalten
+* feste vs. variable Größe pro Datensatz
+
+Ziel 1: wie speichert und verwaltet ein DBMS seine Inhalte
+Zeil 2: Vor- und Nachteile verschiedener Formate
+
+== DBMS (Auswahl) ==
+
+* MS SQL Server
+* Oracle MySQL
+* PostgreSQL
+* MariaDB
+* Firebird
+* neo4j
+* NoSQL
+* SQLite
+* rSQL
+
+Ziel: Namen und Typen von DBMS zuordnen
+
+== Zugriff ==
+
+* Anfragesprache (SQL,XSLT)
+* Tools auf der Kommandozeile
+
+Ziel: wie greife ich auf Inhalte einer DB zu
+
+== Ziel einer Datenbank ==
+
+* Daten strukturiert speichern und wiederfinden
+* Informationen erhalten
+* Daten auswerten (in begrenztem Maße)
+
+Ziel: Aufgaben eines DBMS
+
+== Auswahl einer Datenbank (Kriterien)==
+
+* Datenmenge
+* Variabilität, Veränderlichkeit
+* Datentyp: Text vs. Binär (Bilder)
+* Zugriffsform/-häufigkeit
+* IT-Struktur rundherum
+
+Ziel: Kriterien zur Auswahl eines geeigneten DBMS und seiner Struktur
+
+== Ablauf eines Zugriffs auf eine Datenbank ==
+
+* zur Datenbank verbinden
+* Auftrag absenden
+* Ergebnis holen
+* Verbindung beenden
+* Ergebnis auswerten
+* Ergebnis darstellen
+* Drumherum: Anwendungslogik
+
+Ziel: wie funktioniert ein DBMS
+
+== Datenbankaufträge ==
+
+* Datenbank anlegen (CREATE)
+* Daten einfügen (INSERT)
+* Daten ändern (UPDATE)
+* Daten löschen (DELETE)
+* Daten auswählen (SELECT)
+
+Ziel: wie spreche ich ein DBMS an
+
+== Anwendung im Kurs ==
+
+* Adressbuch
+  Nutzer-ID, Name, Straße, Ort, PLZ, Telefonnummer
+
+* Inventardatenbank/-verzeichnis
+  Inventarnummer, Verwaltungsbereich, Beschreibung, Kaufpreis, Kaufdatum
+
+* Verwaltung
+  Nutzer-ID, Verwaltungsbereich
+
+Ziel: Datenstruktur verstehen
+
+== Werkzeuge im Projekt ==
+
+* Webserver (Apache, Nginx)
+* Datenbank (MySQL, PostgreSQL)
+* Webbasierter Zugriff mit PHPMyAdmin
+* Implementierung in einer Programmiersprache (PHP, Python)
+
+Ziel: was brauchen wir dafür
+
+== Ablauf ==
+
+1 Mit der Datenbank vertraut werden
+  - Kommandozeile/Terminal-Interface
+  - Tabelle anlegen und löschen
+  - Tabelle auflisten
+  - Daten einfügen
+  - Daten auswählen
+  - Daten löschen
+  - Daten ändern
+
+  Ziel: Datenbank mit leerer Tabelle und fertiger Struktur
+
+2 Webserver einrichten und testen
+  - Installation Apache Webserver
+  - Test auf Erreichbarkeit des Webservers
+
+  Ziel: Einrichtung und Prüfung eines Webservers verstehen
+
+3 PHP einrichten und damit vertraut werden
+  - PHP ergänzen (mod_php installieren)
+  - PHP vs HTML
+    
+    Ziel: erste kleine Anwendung schreiben: php_info()
+
+4 HTML
+  - Links und Verweise
+  - Varianten und der Umgang mit Eingabefeldern
+  - Parameter übergeben zwischen Skripts
+  - Validierung der Parameter
+
+  Ziel: Menüauswahl realisieren
+
+5 PHP
+  - externe Dateien einbeziehen
+  - HTML-Modul
+  - Datenbank-Modul
+
+  Ziel: Modularisierung des Projekts/der Anwendung
+  (Nutzen fertiger Module)
+
+  - Anwendungskonzept umsetzen
+    * Tabelleninhalt anzeigen und verstehen
+    * Eintrag ergänzen, ändern, löschen
+    * Eintrag suchen (filtern)
+
+6 Richtig suchen und filtern
+  - Suche mit Textvergleichen
+  - Reguläre Ausdrücke nutzen
+
+7 Sortieren nach Tabellenspalte
+  - ORDER BY
+
+8 Schick machen mit CSS
+
+
