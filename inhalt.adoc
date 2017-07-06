@@ -243,6 +243,7 @@ Ziel: Kriterien zur Auswahl eines geeigneten DBMS und seiner Struktur
 
 == Ablauf eines Zugriffs auf eine Datenbank ==
 
+* Auftrag (Anfrage formulieren)
 * zur Datenbank verbinden
 * Auftrag absenden
 * Ergebnis holen
