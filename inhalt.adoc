@@ -131,8 +131,13 @@ Holger Glück;Am Nordtor 5;Nauen;14641;
 
 == Zugangswege ==
 
-* Programm <-> DBMS <-> DB*
-* Library via ODBC/DBI-Treiber <-> DBMS <-> DB
+* Programm via Library oder ODBC/DBI-Treiber zum DBS
+** ODBC: Open Database Connectivity
+** DBI: Database Interface
+
+* Datenbank-Konsole (Terminal)
+
+image::db-zugangswege.png[id="fig.db-zugangswege", width="90%"]
 
 == Speicherformen ==
 
@@ -306,11 +311,11 @@ Ziel: Einrichtung und Prüfung eines Webservers verstehen
 
 === PHP einrichten und damit vertraut werden ===
 
-* PHP ergänzen ('mod_php' installieren)
+* PHP ergänzen ('mod_php' installieren und aktivieren)
 * PHP vs HTML
 
 ----
-Ziel: erste kleine Anwendung schreiben: `php_info()`
+Ziel: erste kleine Anwendung schreiben: php_info()
 ----
 
 === HTML ===
@@ -356,7 +361,7 @@ Ziel: Modularisierung des Projekts/der Anwendung (Nutzen fertiger Module)
 
 Link
 
-== Danksagung =
+== Danksagung ==
 
 Danke an:
 
