@@ -217,10 +217,16 @@ Ziel: wie greife ich auf Inhalte einer DB zu
 
 * Daten strukturiert speichern und wiederfinden
 * Informationen erhalten
+* Daten aggregieren
 * Daten auswerten (in begrenztem Maße)
 
+* Funktionen eines DBS (Auswahl):
+** mathematische Funktionen: `sum()`, `avg()`, `count()`
+** statistische Funktionen: `min()`, `max()`
+** trigonometische Funktionen
+
 ----
-Ziel: Aufgaben eines DBMS
+Ziel: Ziel und Aufgaben eines DBMS
 ----
 
 == Auswahl einer Datenbank (Kriterien) ==
