@@ -258,11 +258,44 @@ Ziel: wie funktioniert ein DBMS
 
 == Datenbankaufträge ==
 
-* Datenbank anlegen (CREATE)
-* Daten einfügen (INSERT)
-* Daten ändern (UPDATE)
-* Daten löschen (DELETE)
-* Daten auswählen (SELECT)
+=== Aufbau ===
+
+* Folge von Kommandos in einer Anfragesprache
+** Structured Query Language (SQL)
+
+----
+statement;
+----
+
+=== Auswahl von Kommandos ===
+
+* Datenbank anlegen (`CREATE DATABASE`)
+
+* Tabelle anlegen (`CREATE TABLE`)
+
+* Daten einfügen (`INSERT`)
+
+----
+INSERT INTO authors VALUES (3, 'Stephen Fry');
+----
+
+* Daten ändern (`UPDATE`)
+
+----
+UPDATE authors SET name = 'Stephen Fry' WHERE id = 3;
+----
+
+* Daten löschen (`DELETE`)
+
+----
+DELETE FROM authors WHERE id = 3;
+----
+
+* Daten auswählen (`SELECT`)
+
+----
+SELECT * FROM authors;
+----
 
 ----
 Ziel: wie spreche ich ein DBMS an
