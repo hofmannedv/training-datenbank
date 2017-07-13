@@ -155,9 +155,9 @@ Holger Glück;Am Nordtor 5;Nauen;14641;
 ** ODBC: Open Database Connectivity
 ** DBI: Database Interface
 
-* Datenbank-Konsole (Terminal)
-
 image::db-zugangswege.png[id="fig.db-zugangswege", width="90%"]
+
+* Datenbank-Konsole (Terminal)
 
 .Zugriff auf eine lokale MySQL-Datenbank über die Datenbank-Konsole (Terminal)
 ----
@@ -166,6 +166,16 @@ Enter password:
 mysql>
 ...
 use databasename;
+...
+$
+----
+
+.Zugriff auf eine lokale PostgreSQL-Datenbank über die Datenbank-Konsole (Terminal)
+----
+$ psql
+psql (9.4)
+Type "help" for help.
+postgres=#
 ...
 $
 ----
