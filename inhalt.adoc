@@ -23,6 +23,8 @@ Datenbanken und Anwendungen (3 Tage)
 * Anwendung im Kurs
 * Werkzeuge im Projekt 
 * Ablauf -- Schritte 1 bis 8
+* Anhang
+** DBS-Kommandos
 
 == Einführung ==
 
@@ -450,6 +452,23 @@ Ziel: Modularisierung des Projekts/der Anwendung (Nutzen fertiger Module)
 === Schick machen mit CSS ===
 
 * Einstieg in CSS
+
+== Anhang ==
+
+=== DBS-Kommandos ===
+
+Jedes DBS akzeptiert eine Reihe von Kommandos. Nachfolgend sehen Sie
+eine Auswahl zu MySQL und PostgreSQL.
+
+.DBS-Kommandos (Auswahl)
+[frame="topbot",options="header",cols="3,3,2",id="tab.dbs-kommandos"]
+|====
+| Aktion | MySQL | PostgreSQL
+| Hilfe zu Kommandos anzeigen | `help;` (kurz: `\?;`) | `\help;` (kurz: `\?;`) 
+| Datenbanken anzeigen | `show databases;` | `\list;` (kurz: `\l;`)
+| Tabellen anzeigen | `show tables from` 'database name'; | `\dt;`
+| DBS verlassen | `exit` und `quit` (kurz: `\q`) | 
+|====
 
 == Links ==
 
