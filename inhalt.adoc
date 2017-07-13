@@ -234,7 +234,7 @@ Ziel 2: Vor- und Nachteile verschiedener Formate
 Ziel: Namen und Typen von DBMS zuordnen
 ----
 
-== Zugriff (allgmein) ==
+== Zugriff (allgemein) ==
 
 === Anfragesprache === 
 
@@ -286,6 +286,35 @@ Ziel: wie funktioniert ein DBMS
 === Aufbau ===
 
 * Folge von Kommandos in einer Anfragesprache
+** Kommandos des DBS
+
+.Alle Datenbanken im DBS anzeigen (MySQL)
+----
+mysql> show databases;
++-----------------------+
+| Database              |
++-----------------------+
+| information_schema    |
+| mysql                 |
+| performance_schema    |
+| phpmyadmin            |
+| solar                 |
++-----------------------+
+5 rows in set (0.00 sec)
+----
+
+.Alle Tabellen der Datenbank `publications` anzeigen (PostgreSQL)
+----
+publications=# \dt
+             Liste der Relationen
+ Schema |     Name     |   Typ   | Eigentümer
+--------+--------------+---------+------------
+ public | authors      | Tabelle | frank
+ public | publications | Tabelle | frank
+(2 Zeilen)
+publications=#
+----
+
 ** Structured Query Language (SQL)
 
 ----
