@@ -11,12 +11,12 @@ Datenbanken und Anwendungen (3 Tage)
 * Ablauf
 * Einführung
 ** Was ist eine Datenbank
+** Ziel einer Datenbank
 ** Formate und Varianten
 ** Zugangswege
 ** Speicherformen
 * DBMS (Auswahl)
 * Zugriff
-* Ziel einer Datenbank
 * Auswahlkriterien eines DBMS
 * Ablauf eines Zugriffs auf eine Datenbank
 * Datenbankaufträge
@@ -50,6 +50,26 @@ image::db-vs-dbms.png[id="fig.db-vs-sbms", width="30%"]
 lokal:: alles auf einem einzigen Computer bzw. Speichermedium
 
 verteilt ('distributed'):: über mehrere Computer und Speichermedien verteilt
+
+== Ziel einer Datenbank ==
+
+* Daten strukturiert speichern und wiederfinden
+* Informationen erhalten
+* Daten aggregieren
+* Daten auswerten (in begrenztem Maße)
+
+.Funktionen eines DBS (Auswahl)
+[frame="topbot",options="header",cols="4,2",id="tab.datenbankfunktionen"]
+|====
+| Kategorie | Funktion 
+| mathematische Funktionen | `sum()`, `avg()`, `count()`
+| statistische Funktionen | `min()`, `max()`, `avg()`
+| trigonometische Funktionen | `sin()`, `tan()`
+|====
+
+----
+Ziel: Ziel und Aufgaben eines DBMS
+----
 
 == Formate und Varianten ==
 
@@ -139,6 +159,17 @@ Holger Glück;Am Nordtor 5;Nauen;14641;
 
 image::db-zugangswege.png[id="fig.db-zugangswege", width="90%"]
 
+.Zugriff auf eine lokale MySQL-Datenbank über die Datenbank-Konsole (Terminal)
+----
+$ mysql -u username -p
+Enter password:
+mysql>
+...
+use databasename;
+...
+$
+----
+
 == Speicherformen ==
 
 * nach außen
@@ -211,22 +242,6 @@ $
 
 ----
 Ziel: wie greife ich auf Inhalte einer DB zu
-----
-
-== Ziel einer Datenbank ==
-
-* Daten strukturiert speichern und wiederfinden
-* Informationen erhalten
-* Daten aggregieren
-* Daten auswerten (in begrenztem Maße)
-
-* Funktionen eines DBS (Auswahl):
-** mathematische Funktionen: `sum()`, `avg()`, `count()`
-** statistische Funktionen: `min()`, `max()`
-** trigonometische Funktionen
-
-----
-Ziel: Ziel und Aufgaben eines DBMS
 ----
 
 == Auswahl einer Datenbank (Kriterien) ==
