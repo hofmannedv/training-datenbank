@@ -14,10 +14,10 @@ Datenbanken und Anwendungen (3 Tage)
 ** Ziel einer Datenbank
 ** Formate und Varianten
 ** Zugangswege
+** Auswahlkriterien eines DBMS
 ** Speicherformen
 * DBMS (Auswahl)
-* Zugriff
-* Auswahlkriterien eines DBMS
+* Zugriff (allgemein)
 * Ablauf eines Zugriffs auf eine Datenbank
 * Datenbankaufträge
 * Anwendung im Kurs
@@ -180,6 +180,18 @@ postgres=#
 $
 ----
 
+== Auswahl einer Datenbank (Kriterien) ==
+
+* Datenmenge
+* Variabilität, Veränderlichkeit
+* Datentyp: Text vs. Binär (Bilder)
+* Zugriffsform/-häufigkeit
+* IT-Struktur rundherum
+
+----
+Ziel: Kriterien zur Auswahl eines geeigneten DBMS und seiner Struktur
+----
+
 == Speicherformen ==
 
 * nach außen
@@ -222,7 +234,7 @@ Ziel 2: Vor- und Nachteile verschiedener Formate
 Ziel: Namen und Typen von DBMS zuordnen
 ----
 
-== Zugriff ==
+== Zugriff (allgmein) ==
 
 === Anfragesprache === 
 
@@ -252,18 +264,6 @@ $
 
 ----
 Ziel: wie greife ich auf Inhalte einer DB zu
-----
-
-== Auswahl einer Datenbank (Kriterien) ==
-
-* Datenmenge
-* Variabilität, Veränderlichkeit
-* Datentyp: Text vs. Binär (Bilder)
-* Zugriffsform/-häufigkeit
-* IT-Struktur rundherum
-
-----
-Ziel: Kriterien zur Auswahl eines geeigneten DBMS und seiner Struktur
 ----
 
 == Ablauf eines Zugriffs auf eine Datenbank ==
