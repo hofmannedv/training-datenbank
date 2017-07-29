@@ -234,15 +234,19 @@ Ziel 2: Vor- und Nachteile verschiedener Formate
 
 == DBMS (Auswahl) ==
 
-* MS SQL Server (https://www.microsoft.com/de-de/sql-server/sql-server-2017)
-* Oracle MySQL (https://www.mysql.com/)
-* PostgreSQL (https://www.postgresql.org/)
-* MariaDB (https://mariadb.org/)
-* Firebird (https://www.firebirdsql.org/)
-* neo4j (http://neo4j.com/)
-* MongoDB (https://www.mongodb.com/de)
-* SQLite (https://www.sqlite.org/)
-* rSQL (http://www.rsql.ch/)
+* OpenSource
+** MySQL (https://www.mysql.com/de/)
+** PostgreSQL (https://www.postgresql.org/)
+** MariaDB (https://mariadb.org/)
+** MongoDB (https://www.mongodb.com/de)
+** SQLite (https://www.sqlite.org/)
+** rSQL (http://www.rsql.ch/)
+** Firebird (https://www.firebirdsql.org/)
+** neo4j (http://neo4j.com/)
+* Kommerziell
+** MS SQL Server (https://www.microsoft.com/de-de/sql-server/sql-server-2017)
+** Oracle MySQL (https://www.mysql.com/)
+** DB2 (www.ibm.com/analytics/us/en/technology/db2)
 
 ----
 Ziel: Namen und Typen von DBMS zuordnen
@@ -485,6 +489,7 @@ eine Auswahl zu MySQL und PostgreSQL.
 == Links ==
 
 * Radhika Kumaran: Active Databases, https://de.scribd.com/presentation/24508239/Active-Databases
+* Übersicht zu DBMS, https://db-engines.com/de/
 
 == Danksagung ==
 
