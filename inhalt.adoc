@@ -194,12 +194,12 @@ $
 .Datenbanktypen
 [frame="topbot",options="header",id="tab.datenbanktypen"]
 |====
-| Typ | Kriterien | Beispiel 
+| Typ | Kriterien | Beispiel | Anwendungsbereich (Auswahl)
 
 | aktiv | verfügt über Views, Triggers, Stored Procedures und Event
-Handler, steuert sich selbst | PostgreSQL
+Handler, steuert sich selbst | PostgreSQL | situationsbasierte Benachrichtigung, Statistik
 
-| passiv | wird von einem äußeren Programm gesteuert | RSQL
+| passiv | wird von einem äußeren Programm gesteuert | RSQL | Datenmüllhalde
 |====
 
 ----
@@ -484,7 +484,7 @@ eine Auswahl zu MySQL und PostgreSQL.
 
 == Links ==
 
-Link
+* Radhika Kumaran: Active Databases, https://de.scribd.com/presentation/24508239/Active-Databases
 
 == Danksagung ==
 
