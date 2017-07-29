@@ -43,7 +43,7 @@ DB:: Abkürzung für Datenbank ('database')
 
 DBS:: Abkürzung für Datenbanksystem ('database system')
 
-DMBS:: Abkürzung für Datenbank-Management-System ('database management system')
+DBMS:: Abkürzung für Datenbank-Management-System ('database management system')
 
 image::db-vs-dbms.png[id="fig.db-vs-sbms", width="30%"]
 
@@ -189,6 +189,18 @@ $
 * Datentyp: Text vs. Binär (Bilder)
 * Zugriffsform/-häufigkeit
 * IT-Struktur rundherum
+* Datenbanktyp -- aktiv oder passiv
+
+.Datenbanktypen
+[frame="topbot",options="header",id="tab.datenbanktypen"]
+|====
+| Typ | Kriterien | Beispiel 
+
+| aktiv | verfügt über Views, Triggers, Stored Procedures und Event
+Handler, steuert sich selbst | PostgreSQL
+
+| passiv | wird von einem äußeren Programm gesteuert | RSQL
+|====
 
 ----
 Ziel: Kriterien zur Auswahl eines geeigneten DBMS und seiner Struktur
@@ -476,5 +488,8 @@ Link
 
 == Danksagung ==
 
-Danke an:
+Danke für fachliche Kritik und Anmerkungen zur Korrektur an:
+
+* Gerold Rupprecht, Genf
+* Mandy Neumeyer, Kapstadt
 
