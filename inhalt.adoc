@@ -155,6 +155,7 @@ Holger Glück;Am Nordtor 5;Nauen;14641;
 
 * Programm via Library oder ODBC/DBI-Treiber zum DBS
 ** ODBC: Open Database Connectivity
+** JDBC: Java Database Connectivity
 ** DBI: Database Interface
 
 image::db-zugangswege.png[id="fig.db-zugangswege", width="90%"]
