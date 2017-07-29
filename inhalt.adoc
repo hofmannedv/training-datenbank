@@ -247,6 +247,7 @@ Ziel 2: Vor- und Nachteile verschiedener Formate
 ** MS SQL Server (https://www.microsoft.com/de-de/sql-server/sql-server-2017)
 ** Oracle MySQL (https://www.mysql.com/)
 ** DB2 (www.ibm.com/analytics/us/en/technology/db2)
+** SAP Adaptive Server Enterprise (vorher Sybase) (https://www.sap.com/cmp/syb/crm-xu15-int-asexprdm/index.html?kNtBzmUK9zU)
 
 ----
 Ziel: Namen und Typen von DBMS zuordnen
