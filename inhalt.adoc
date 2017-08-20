@@ -247,7 +247,7 @@ Ziel 2: Vor- und Nachteile verschiedener Formate
 * Kommerziell
 ** MS SQL Server (https://www.microsoft.com/de-de/sql-server/sql-server-2017)
 ** Oracle MySQL (https://www.mysql.com/)
-** DB2 (www.ibm.com/analytics/us/en/technology/db2)
+** DB2 (http://www.ibm.com/analytics/us/en/technology/db2)
 ** SAP Adaptive Server Enterprise (vorher Sybase) (https://www.sap.com/cmp/syb/crm-xu15-int-asexprdm/index.html?kNtBzmUK9zU)
 
 ----
@@ -391,7 +391,7 @@ Ziel: Datenstruktur zusammenstellen, verstehen und verbinden
 
 * Webserver (Apache, Nginx)
 * Datenbank (MySQL, PostgreSQL)
-* Webbasierter Zugriff mit PHPMyAdmin
+* Webbasierter Zugriff mit PHPMyAdmin (für MySQL) und phpPgAdmin (für PostgreSQL)
 * Implementierung in einer Programmiersprache (PHP, Python)
 
 ----
@@ -403,12 +403,15 @@ Ziel: was brauchen wir dafür
 === Mit der Datenbank vertraut werden ===
 
 * Kommandozeile/Terminal-Interface
+* Datenbank für einen Benutzer anlegen
+* Zugangsdaten eines Nutzers ändern
 * Tabelle anlegen und löschen
 * Tabelle auflisten
 * Daten einfügen
 * Daten auswählen
 * Daten löschen
 * Daten ändern
+* Tabellenstruktur ändern
 
 ----
 Ziel: Datenbank mit leerer Tabelle und fertiger Struktur
@@ -417,6 +420,7 @@ Ziel: Datenbank mit leerer Tabelle und fertiger Struktur
 === Webserver einrichten und testen ===
 
 * Installation Apache Webserver
+* Starten und Beenden eines Webservers
 * Test auf Erreichbarkeit des Webservers
 
 ----
@@ -426,10 +430,11 @@ Ziel: Einrichtung und Prüfung eines Webservers verstehen
 === PHP einrichten und damit vertraut werden ===
 
 * PHP ergänzen ('mod_php' installieren und aktivieren)
+* Datenbankmodul für PHP nachinstallieren
 * PHP vs HTML
 
 ----
-Ziel: erste kleine Anwendung schreiben: php_info()
+Ziel: erste kleine Anwendung schreiben: `php_info()`
 ----
 
 === HTML ===
@@ -485,7 +490,7 @@ eine Auswahl zu MySQL und PostgreSQL.
 | Hilfe zu Kommandos anzeigen | `help;` (kurz: `\?;`) | `\help;` (kurz: `\?;`) 
 | Datenbanken anzeigen | `show databases;` | `\list;` (kurz: `\l;`)
 | Tabellen anzeigen | `show tables from` 'database name'; | `\dt;`
-| DBS verlassen | `exit` und `quit` (kurz: `\q`) | 
+| DBS verlassen | `exit` und `quit` (kurz: `\q`) | `\q`
 |====
 
 == Links ==
