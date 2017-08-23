@@ -248,6 +248,7 @@ Ziel 2: Vor- und Nachteile verschiedener Formate
 ** MS SQL Server (https://www.microsoft.com/de-de/sql-server/sql-server-2017)
 ** Oracle MySQL (https://www.mysql.com/)
 ** DB2 (http://www.ibm.com/analytics/us/en/technology/db2)
+** Informix (https://www.ibm.com/analytics/us/en/technology/informix/)
 ** SAP Adaptive Server Enterprise (vorher Sybase) (https://www.sap.com/cmp/syb/crm-xu15-int-asexprdm/index.html?kNtBzmUK9zU)
 
 ----
@@ -281,6 +282,17 @@ $
 
 * XML: `xsltproc`, `xmlstarlet`
 * JSON: `jq`
+
+=== Graphische Frontends ===
+
+* GUI
+** kexi (http://www.kexi-project.org/)
+** sqlite (http://sqlitebrowser.org/)
+** pgadmin
+
+* webbasiert / via Webbrowser
+** PhpMyAdmin für MySQL
+** PhpPgAdmin für PostgreSQL
 
 ----
 Ziel: wie greife ich auf Inhalte einer DB zu
